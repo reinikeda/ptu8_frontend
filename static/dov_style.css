@@ -1,0 +1,20 @@
+html {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 15px;
+    color: #235123;
+    background-color: rgba(47, 28, 31, 0.657);
+}
+a {
+    color: rgb(206, 229, 253);
+}
+h1, h2, h3, h4 {
+    color: #dddce6;
+    background-color: #034;
+    border: 2px solid rgb(37, 35, 35);
+    border-bottom: 5px solid #29f;
+    padding: 10 18px;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid rgba(100, 100, 100, 0.5);
+}
