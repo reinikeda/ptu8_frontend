@@ -1,0 +1,21 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    background-color: rgb(90, 142, 145);
+}
+a {
+    color: rgb(228, 234, 237);
+    font-size: 12px;
+}
+h1, h2, h3, h4 {
+    color: #bad4d5;
+    background-color: rgb(51, 115, 120);
+    border: 1px solid rgb(167, 216, 224);
+    border-bottom: 4px solid rgb(186, 206, 226);
+    padding: 8px 12px;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid rgba(127, 127, 127, 0.5);
+}
