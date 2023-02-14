@@ -10,6 +10,10 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
+@app.route('/airida/')
+def airida():
+    return render_template("airida.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
