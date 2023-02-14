@@ -1,0 +1,20 @@
+html {
+    font-family: "Julee", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    background-color:  rgb(8, 0, 15);
+}
+a {
+    color: rgb(6, 180, 114)
+}
+h1, h2, h3, h4 {
+    color: #ffccf2;
+    background-color: rgb(37, 180, 247);
+    border: 3px solid rgb(46, 12, 68);
+    border-bottom: 4px solid rgb(160, 218, 3);
+    padding: 8px 16px;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid rgba(142, 201, 5, 0.5);
+}
