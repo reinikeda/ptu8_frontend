@@ -1,0 +1,24 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    background-color: rgb(3, 39, 199);
+}
+
+a {
+    color: rgb(238, 255, 0);
+}
+
+h1,
+h2 {
+    color: #ccddff;
+    background-color: rgb(0, 68, 51);
+    border: 1px solid rgb(0, 78, 35);
+    border-bottom: 4px solid #39f;
+    padding: 8px 16px;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid rgba(242, 255, 0, 0.795);
+}
