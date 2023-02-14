@@ -1,0 +1,20 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    background-color: rgb(15, 0, 7);
+}
+a {
+    color: #39f;
+}
+h1, h2, h3, h4 {
+    color: #ccddff;
+    background-color: #024;
+    border: 1px solid black;
+    border-bottom: 4px solid #39f;
+    padding: 8px 16px;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid rgba(127, 127, 127, 0.5);
+}
