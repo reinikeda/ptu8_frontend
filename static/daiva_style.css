@@ -1,0 +1,25 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #f9ea96;
+}
+a {
+    color: #584c0a ;
+}
+h1, h2, h3, h4 {
+    color: black;
+    text-align: center;
+    background-color: #f0df7d;
+    padding: 8px 16px;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid #87761c;
+}
+p {
+    padding: 20px;
+}
+.picture {
+    margin-left: 20px;
+}
