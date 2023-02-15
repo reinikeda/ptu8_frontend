@@ -34,15 +34,16 @@ ul, ol {
 
 .content {
     background-color: #036;
+    text-align: center;
 }
 
 .kova {
-    width: 60%;
+    width: 80%;
     max-width: 800px;
     height: 400px;
     background-image: url('kova.jpg');
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
     margin: 0 auto;
     border: 4px solid #dd4a68;
     border-radius: 32px;
@@ -50,7 +51,7 @@ ul, ol {
 }
 
 .kova h2 {
-    margin-top: 100px;
+    margin-top: 44px;
     border: none;
     background-color: #84666666;
 }
