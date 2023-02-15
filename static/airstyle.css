@@ -15,7 +15,23 @@ h1, h2, h3, h4 {
     border-bottom: 4px solid rgb(186, 206, 226);
     padding: 8px 12px;
 }
+.header {
+    background-color: #02554a;
+    margin: 0;
+    padding-top: 0;
+}
 hr {
     border: none;
     border-bottom: 2px solid rgba(127, 127, 127, 0.5);
+}
+
+.doors {
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    background-image: url('doors.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    margin: 0 auto;
 }
