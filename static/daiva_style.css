@@ -29,7 +29,6 @@ p {
 }
 .main_body {
     display: grid;
-    grid-template-columns: 600px;
     padding: 10px;
 }
 .footer {
@@ -44,6 +43,7 @@ p {
     padding: 10px;
     background-image: url("https://www.vincentvangogh.org/images/paintings/olive-trees-with-yellow-sky-and-sun.jpg");
     border-radius: 10px;
+    margin: 0px auto;
 }
 .item2 {
     grid-column: 2;
@@ -54,6 +54,7 @@ p {
     padding: 10px;
     background-image: url("https://i0.wp.com/mossandfog.com/wp-content/uploads/2017/11/grasshopper-van-gogh-moss-and-fog-cover.jpg");
     border-radius: 10px;
+    margin: 0px auto;
 }
 .item3 {
     grid-column: 3;
@@ -65,4 +66,5 @@ p {
     background-image: url("https://d1v9pyzt136u2g.cloudfront.net/blog/wp-content/uploads/2021/07/04172035/1200px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg");
     border-radius: 10px;
     text-align: center;
+    margin: 0px auto;
 }
