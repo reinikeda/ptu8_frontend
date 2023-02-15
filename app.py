@@ -12,7 +12,7 @@ def destytojas():
 
 @app.route('/studentas/')
 def studentas():
-    render_template("studentas.html")
+    return render_template("studentas.html")
 
 
 if __name__ == "__main__":
