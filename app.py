@@ -14,6 +14,9 @@ def destytojas():
 def airida():
     return render_template("airida.html")
 
+@app.route('/gisora/')
+def gisora():
+    return render_template('gisora.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
