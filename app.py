@@ -12,6 +12,17 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
+@app.route('/studentas/')
+def studentas():
+    return render_template("studentas.html")
+
+@app.route('/airida/')
+def airida():
+    return render_template("airida.html")
+
+@app.route('/gisora/')
+def gisora():
+    return render_template('gisora.html')
 
 @app.route('/edvard_p/')
 def edvard_p():
