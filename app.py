@@ -11,6 +11,10 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
+@app.route('/dovydas/')
+def dovydas():
+    return render_template("dovydas.html")
+
 @app.route('/monika/')
 def monika():
     return render_template("monika.html")
