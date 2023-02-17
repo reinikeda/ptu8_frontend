@@ -9,20 +9,34 @@ body {
     padding: 0;
 }
 a {
-    color: rgb(172, 204, 252);
-    border: 1px;
+    color: #39f;
+    border: 1px solid #39f;
     padding: 2px 8px;
     border-radius: 16px;
+    background-color: #fffd;
     text-decoration: none;
 }
 a:hover {
-    background-color: darkred;
+    background-color: #fffe;
 }
 p {
     padding: 8px 16px;
 }
 h1, h2 {
     margin: 0;
+}
+h1::before {
+    content: "*** ";
+}
+h1::after {
+    content: " ***";
+}
+h1::before, h1::after {
+    color: #aaa;
+    font-size: 75%;
+}
+h2::first-letter {
+    color: #fff;
 }
 h1, h2, h3, h4 {
     color: #ccddff;
@@ -54,6 +68,17 @@ ul, ol {
     background-position: center;
     margin: 0 auto;
     border: 4px solid #dd4a68;
+}
+
+.sunset {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    background-image: url('sunset.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    margin: 0 auto;
+    border: 4px solid #ffcccc;
     border-radius: 32px;
     text-align: center;
 }
@@ -62,6 +87,12 @@ ul, ol {
     margin-top: 44px;
     border: none;
     background-color: #84666666;
+}
+
+.sunset h2 {
+    margin-top: 100px;
+    border: none;
+    background-color: #00000066;
 }
 
 .tube {
@@ -75,15 +106,22 @@ ul, ol {
     max-width: 90%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.courses table{
+.courses {
+    background-color: #ccc;
+    color: #024;
+    padding: 32px 0;
+    overflow-x: auto;
+}
+
+.courses table {
     margin: 0 auto;
     border: 1px solid #abc;
     border-collapse: collapse;
@@ -103,17 +141,18 @@ ul, ol {
 .courses table caption {
     font-size: 150%;
     font-weight: 600;
-    color: rgb(1, 12, 23);
+    color: #036;
 }
 
-.courses tr:hover:not(:first-child){
-    background-color: #002848;
+.courses tr:hover:not(:first-child) {
+    background-color: #eee;
 }
 
-.courses tr:first-child{
-    background-color: rgb(0, 16, 31);
+.courses tr:first-child {
+    background-color: #369;
+    color: #ccddff;
 }
 
 .courses tr:nth-child(even) {
-    background-color: rgb(57, 57, 101);
+    background-color: #abc;
 }
