@@ -30,6 +30,10 @@ def gisora():
 @app.route('/edvard_p/')
 def edvard_p():
     return render_template("edvard_p.html")
+    
+@app.route('/egle/')
+def egle():
+    return render_template("egle.html")
 
 
 if __name__ == "__main__":
