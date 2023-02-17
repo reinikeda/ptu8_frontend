@@ -56,6 +56,7 @@ ul, ol {
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
+    padding-right: 40px;
 }
 
 .flex-list li {
