@@ -9,13 +9,23 @@ body {
     background-color: black;
     color: #ddd;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 50px calc(100vh - 200px) 150px;
     grid-template-areas: 
         "header header"
         "sidebar main"
         "footer footer"
     ;
+}
+
+h1 {
+    font-size: 300%;
+}
+h2 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 150%;
 }
 
 header {
@@ -27,7 +37,6 @@ header {
 aside {
     grid-area: sidebar;
     background-color: #111;
-    overflow-y: auto;
     overflow-y: auto;
 }
 
@@ -70,4 +79,46 @@ ul li a {
     text-decoration: none;
     border-bottom: 1px solid #456;
     color: #0cf;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px auto auto 150px;
+        grid-template-areas: 
+            "header"
+            "main"
+            "sidebar"
+            "footer"
+        ;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    h3 {
+        font-size: 135%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:920px) {
+    body {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 50px calc(100vh - 150px) 100px;
+    }
+    h1 {
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 175%;
+    }
+    h3 {
+        font-size: 140%;
+    }
 }
