@@ -10,6 +10,9 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
+@app.route('/gisora/')
+def gisora():
+    return render_template('gisora.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
