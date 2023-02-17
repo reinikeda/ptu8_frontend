@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PTU8 - super studentų grupė</title>
+    <title>Grid Example</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href="/static/style.css" rel="stylesheet" type="text/css">
-
+    <link href="/static/gridukas.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-    <div class="header">
-        <h1>PTU8 Python Kursas</h1>
-        <p>Mūsų super sėkminga ir smagi studentų grupė</p>
-    </div>
-    <div class="content">
-        <h3>Dėstytojas</h3>
-        <ul class="flex-list">
-            <li><a href="/destytojas/">Kęstutis Januškevičius</a></li>
-            <li><a href="/gridukas/">Grid Layout'as</a></li>
+    <header class="layout-item">
+        <ul class="top-menu">
+            <li class="logo">PTU8 Gridas</li>
+            <li><a href="/gridukas/">Home</a></li>
+            <li><a href="/">old version</a></li>
         </ul>
-        <h3>Studentų sąrašas</h3>
+    </header>
+    <main class="layout-item">
+        <h1>Penktadienis!</h1>
+        <p>Here we will have fun!</p>
+    </main>
+    <aside class="layout-item">
+        <h3>Studentai</h3>
         <ul class="flex-list">
             <li><a href="/daiva/">Daiva Reinikė</a></li>
             <li><a href="/dovydas/">Dovydas Žalys</a></li>
@@ -34,7 +33,9 @@
             <li><a href="/gisora/">Giedrius Išora</a></li>
             <li><a href="/egle/">Eglė Motiejūnaitė</a></li>
         </ul>
-    </div>
+    </aside>
+    <footer class="layout-item">
+        <p>&copy; 2023 PTU8 team</p>
+    </footer>
 </body>
-
 </html>
