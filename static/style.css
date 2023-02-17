@@ -48,6 +48,26 @@ h1, h2, h3, h4 {
 ul, ol {
     padding-bottom: 16px;
 }
+
+.flex-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.flex-list li {
+    display: inline-block;
+}
+
+.example {
+    color: darkgray; 
+    text-decoration: line-through;
+    order: 999;
+}
+
 .header {
     background-color: #002848;
     margin: 0;
