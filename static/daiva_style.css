@@ -28,15 +28,19 @@ p {
     padding: 10px;
 }
 .main_body {
-    display: grid;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
 }
 .footer {
     padding: 10px;
+    font-weight: bold;
+    color: black;
 }
 .item1 {
-    grid-column: 1;
-    grid-row: 1;
     width: 100%;
     max-width: 500px;
     height: 400px;
@@ -46,8 +50,6 @@ p {
     margin: auto;
 }
 .item2 {
-    grid-column: 2;
-    grid-row: 1;
     width: 100%;
     max-width: 500px;
     height: 400px;
@@ -57,8 +59,6 @@ p {
     margin: auto;
 }
 .item3 {
-    grid-column: 3;
-    grid-row: 1;
     width: 100%;
     max-width: 500px;
     height: 400px;
@@ -69,8 +69,6 @@ p {
     margin: auto;
 }
 .item4 {
-    grid-column: 1 / span 3;
-    grid-row: 2;
     width: 100%;
     padding-top: 30px;
     text-align: center;
